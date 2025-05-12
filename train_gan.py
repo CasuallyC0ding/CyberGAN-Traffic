@@ -1,3 +1,6 @@
+#so this is only used once to generate the generator and the discriminator now it is dead GG
+#run train_gan_resume bitte
+'''
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -124,3 +127,4 @@ for epoch in range(epochs):
 torch.save(generator.state_dict(), "generator.pth")
 torch.save(discriminator.state_dict(), "discriminator.pth")
 print("[INFO] Models saved: generator.pth and discriminator.pth")
+'''
